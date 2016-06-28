@@ -12,6 +12,7 @@
 		9554E1941D232AE700BC8FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9554E1921D232AE700BC8FBA /* Main.storyboard */; };
 		9554E1961D232AE700BC8FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9554E1951D232AE700BC8FBA /* Assets.xcassets */; };
 		9554E1991D232AE700BC8FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9554E1971D232AE700BC8FBA /* LaunchScreen.storyboard */; };
+		95BCAC141D2338EB0096F7BC /* 7131566543.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BCAC131D2338EB0096F7BC /* 7131566543.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9554E1951D232AE700BC8FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9554E1981D232AE700BC8FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9554E19A1D232AE700BC8FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BCAC131D2338EB0096F7BC /* 7131566543.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7131566543.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				9554E1901D232AE700BC8FBA /* ViewController.swift */,
 				9554E1921D232AE700BC8FBA /* Main.storyboard */,
 				9554E1951D232AE700BC8FBA /* Assets.xcassets */,
+				95BCAC131D2338EB0096F7BC /* 7131566543.png */,
 				9554E1971D232AE700BC8FBA /* LaunchScreen.storyboard */,
 				9554E19A1D232AE700BC8FBA /* Info.plist */,
 			);
@@ -124,6 +127,7 @@
 			files = (
 				9554E1991D232AE700BC8FBA /* LaunchScreen.storyboard in Resources */,
 				9554E1961D232AE700BC8FBA /* Assets.xcassets in Resources */,
+				95BCAC141D2338EB0096F7BC /* 7131566543.png in Resources */,
 				9554E1941D232AE700BC8FBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				9554E19F1D232AE700BC8FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

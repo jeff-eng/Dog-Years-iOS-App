@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dogAgeTextField: UITextField!
+    
+    @IBOutlet weak var caculatedAgelabel: UILabel!
+    
+    @IBAction func calculateAgeButtonClicked(sender: AnyObject) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
