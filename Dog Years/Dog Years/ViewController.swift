@@ -12,9 +12,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var dogAgeTextField: UITextField!
     
-    @IBOutlet weak var caculatedAgelabel: UILabel!
+    @IBOutlet weak var calculatedAgeLabel: UILabel!
     
     @IBAction func calculateAgeButtonClicked(sender: AnyObject) {
+       
+        let dogAge = Int(dogAgeTextField.text!)! * 7
+        
+        calculatedAgeLabel.text = "Woot! Your dog's age is \(dogAge) in dog years!"
+        
     }
     
     

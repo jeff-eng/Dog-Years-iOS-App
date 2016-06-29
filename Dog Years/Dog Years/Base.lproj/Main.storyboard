@@ -41,9 +41,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s40-vO-nFx">
-                                <rect key="frame" x="145" y="248" width="78.5" height="21"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s40-vO-nFx">
+                                <rect key="frame" x="162" y="248" width="61.5" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -54,17 +54,22 @@
                                     <action selector="calculateAgeButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zug-Rv-dLf"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7131566543.png" translatesAutoresizingMaskIntoConstraints="NO" id="bff-Tk-MKM">
-                                <rect key="frame" x="20" y="302" width="335" height="345"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7131566543.png" translatesAutoresizingMaskIntoConstraints="NO" id="bff-Tk-MKM">
+                                <rect key="frame" x="16" y="315" width="343" height="325"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="325" id="TLf-fz-maz"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="bff-Tk-MKM" firstAttribute="top" secondItem="s40-vO-nFx" secondAttribute="bottom" constant="33" id="2ob-yO-trx"/>
                             <constraint firstItem="OlD-vb-U8U" firstAttribute="centerX" secondItem="CMM-V6-UmD" secondAttribute="centerX" id="3jT-ye-YaY"/>
                             <constraint firstItem="OlD-vb-U8U" firstAttribute="centerX" secondItem="hVo-7b-AXV" secondAttribute="centerX" id="5CN-Zi-fjE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hr7-g1-eNa" secondAttribute="bottom" constant="587" id="8oL-ab-1FB"/>
                             <constraint firstItem="OlD-vb-U8U" firstAttribute="top" secondItem="hVo-7b-AXV" secondAttribute="bottom" constant="26" id="9fs-T3-b2E"/>
                             <constraint firstItem="Hr7-g1-eNa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="93" id="Bwk-6Q-bZQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bff-Tk-MKM" secondAttribute="trailing" id="OVn-VX-U5H"/>
                             <constraint firstItem="Hr7-g1-eNa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="109" id="Oft-J8-7AL"/>
                             <constraint firstItem="CMM-V6-UmD" firstAttribute="top" secondItem="OlD-vb-U8U" secondAttribute="bottom" constant="78" id="PAK-q1-Lmo"/>
                             <constraint firstItem="98a-Va-l3m" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-234.75" id="REH-sQ-Y9P"/>
@@ -75,8 +80,10 @@
                             <constraint firstItem="Hr7-g1-eNa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vmf-pS-QhF"/>
                             <constraint firstItem="OlD-vb-U8U" firstAttribute="centerX" secondItem="98a-Va-l3m" secondAttribute="centerX" id="XTk-o6-Ai0"/>
                             <constraint firstItem="s40-vO-nFx" firstAttribute="top" secondItem="OlD-vb-U8U" secondAttribute="bottom" constant="24" id="aQo-Hs-eoF"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="bff-Tk-MKM" secondAttribute="leading" id="dOA-yi-FXT"/>
                             <constraint firstItem="Hr7-g1-eNa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="iyd-9X-ymb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="98a-Va-l3m" secondAttribute="trailing" constant="43" id="jnu-W2-sEH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bff-Tk-MKM" secondAttribute="bottom" constant="27" id="lV9-aa-FME"/>
                             <constraint firstAttribute="trailingMargin" secondItem="s40-vO-nFx" secondAttribute="trailing" constant="135.5" id="r4t-nr-Zoz"/>
                             <constraint firstItem="98a-Va-l3m" firstAttribute="centerX" secondItem="Hr7-g1-eNa" secondAttribute="centerX" id="wX9-Km-PQn"/>
                             <constraint firstItem="Hr7-g1-eNa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wXx-wD-i6n"/>
@@ -86,12 +93,13 @@
                                 <exclude reference="Oft-J8-7AL"/>
                                 <exclude reference="Ths-fY-PoR"/>
                                 <exclude reference="wXx-wD-i6n"/>
+                                <exclude reference="2ob-yO-trx"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="caculatedAgelabel" destination="s40-vO-nFx" id="sqw-CR-bJd"/>
+                        <outlet property="calculatedAgeLabel" destination="s40-vO-nFx" id="6mj-1X-k6H"/>
                         <outlet property="dogAgeTextField" destination="hVo-7b-AXV" id="5uo-BA-eVO"/>
                     </connections>
                 </viewController>
